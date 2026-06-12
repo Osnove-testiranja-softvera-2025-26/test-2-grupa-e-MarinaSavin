@@ -7,6 +7,6 @@ namespace ApartmentAgencyApp.Services
 {
     public interface IDateCalculationService
     {
-        RequestDaysInfo GetDaysInfo(DateTime from, DateTime to);
+        RequestDaysInfo GetDaysInfo(DateTime from, DateTime to) ;
     }
 }
